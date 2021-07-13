@@ -2,17 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-    return (
-        <> 
-    <div className = "card" >
-        <div className = "image" >
-        <img src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpics.onsizzle.com%2Fwhen-your-friend-asks-engineering-ke-baad-mba-kyu-kiya-26667882.png&f=1&nofb=1"
+    return ( <div className = "card" >
+        <
+        div className = "image" >
+        <
+        img src = "https://i.pinimg.com/736x/dc/62/ba/dc62ba6https://memetemplateindia.com/wp-content/uploads/2020/05/aise-hi-sexy-lag-raha-tha-2.jpg433b6e744b095585c50883540.jpg"
         alt = "meme" >
-        </img> 
-        </div > <h1 > Meme card </h1></div> 
-        <div className = "cardDescription" >
-        </div>
-        </>
+        </img> </div > <h1 > Meme card </h1> <div className = "cardDescription" >
+        </div> </div>
     );
 }
 
