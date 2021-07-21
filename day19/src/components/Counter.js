@@ -33,11 +33,11 @@ export class Counter extends Component {
             <h1 > { this.state.count } </h1> 
             <div className = "btn" >
             <button onClick = {
-                () => ths.increment() } > Increment </button> <
+                () => this.increment() } > Increment </button> <
             button onClick = {
                 () => this.decrement() } > Decrement </button> <
             button onClick = {
-                () => this.reset() } > Rest </button> 
+                () => this.reset() } > Reset </button> 
             </div> 
             </>
         )
