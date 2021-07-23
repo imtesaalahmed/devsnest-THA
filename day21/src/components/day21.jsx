@@ -49,7 +49,6 @@ function AddItemForm({ addItem }) {
 		</form>
 	);
 }
-{
 	/* <div className="card" style="width: 18rem;">
   <div className="card-body">
     <h5 className="card-title">Card title</h5>
@@ -59,7 +58,6 @@ function AddItemForm({ addItem }) {
     <a href="#" className="card-link">Another link</a>
   </div>
 </div> */
-}
 function RenderItem({ updateItem, removeItem, item, index }) {
 	const [isEditing, setIsEditing] = useState(false);
 
